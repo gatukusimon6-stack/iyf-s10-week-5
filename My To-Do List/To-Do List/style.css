@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+/* Input section */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Task list */
+li {
+    list-style: none;
+    padding: 10px;
+    background: #f4f4f4;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
